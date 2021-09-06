@@ -10,6 +10,10 @@
     --secondary-background-color: #E1AD01;
 }
 
+.hidden {
+    display: none;
+}
+
 .vectorPortraitsContainer {
     background-color: rgb(35, 35, 35);
 }
@@ -45,7 +49,6 @@
 }
 
 .navBar {
-    display: none;
     position: absolute;
     width: 50%;
     top: 0;
@@ -72,17 +75,29 @@
     align-items: flex-end;
 }
 
-.menuItems li {
+.graphicMenu {
+    font-family: 'Trajan Pro';
+    font-size: 10pt;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+    border-style: none none solid none;
+    border-color: black;
+}
+
+.subMenu li {
     list-style: none;
     padding-bottom: 10px;
     margin: 10px 5px;
     border-style: none none solid none;
+    border-color: black;
 }
 
-.menuItems li a {
+.subMenu li a {
     font-family: 'Trajan Pro';
     font-size: 10pt;
-    color: white;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
